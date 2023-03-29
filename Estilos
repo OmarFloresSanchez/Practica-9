@@ -1,0 +1,111 @@
+header{
+    
+    background-color: rgb(42, 148, 235);
+    
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+
+}
+a{
+    color: blue
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+   
+}
+header a{
+    color: white;
+    text-decoration: none;
+    padding-right: 5rem;
+}
+.nombre{
+    font-weight: bold;
+    padding-left: 5rem;
+    font-size: x-large;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+}
+.tablero{
+    background-color: whitesmoke;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+h2{
+    font-size: x-large;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.divs{
+    display: flex;
+    justify-content: space-between;
+}
+.enviar{
+    display: inline-block;
+    background-color: rgb(26, 109, 233);
+    
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.enviar2{
+    color: white;
+}
+.izquierda{
+    padding-right: 3rem;
+    flex-direction: column;
+    float: left;
+
+}
+.juanxd{
+    background-color: whitesmoke
+}
+.juan2{
+    color: rgb(117, 110, 82);
+}
+.navizq{
+    margin-top: 1rem;
+    background-color: whitesmoke
+
+}
+.mensajes{
+    margin-top: 1rem;
+    background-color: whitesmoke
+}
+
+h3{
+    background-color: rgb(113, 173, 230);
+}
+.centro{
+    display: flex;  
+    flex-direction: column;
+}
+aside{
+    margin-left: 3rem;
+    flex-direction: column;
+    float: right;
+}
+.numeros{
+    list-style: none;
+    background-color: whitesmoke
+}
+.numeros span{
+font-size: x-large;
+display: flex;
+color: gray;
+}
+.mejores{
+    background-color: whitesmoke;
+    margin-top: 1rem;
+    float: left;
+    list-style: none;
+}
